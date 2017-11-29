@@ -1,9 +1,9 @@
-#spring-fixtures
+# spring-fixtures
 
 Spring-fixtures is a library that makes integration testing easier.
 It is also helpful when prototyping and demonstrating an application.
 
-###Fixtures
+### Fixtures
 
 A fixture can implement the [Fixture](src/main/java/net/savantly/spring/fixture/Fixture.java) interface, or extend the provided [AbstractBaseFixture](src/main/java/net/savantly/spring/fixture/AbstractBaseFixture.java)
 
@@ -16,7 +16,7 @@ The AbstractBaseFixture expects an Entity, and a Repository class that extends [
 Examples of fixtures and tests are included 
 [src/test/java/](src/test/java/)
 
-###Fixture Tests
+### Fixture Tests
 
 An abstract fixture test is available. No implementation is required.
 [src/test/java/net/savantly/example/test/AbstractFixtureTest.java](src/test/java/net/savantly/example/test/AbstractFixtureTest.java)
@@ -24,7 +24,7 @@ An abstract fixture test is available. No implementation is required.
     public class ItemFixtureTest extends AbstractFixtureTest<Item, ItemFixture, ItemRepository> {}
 
 
-###RandomGenerator
+### RandomGenerator
 A RandomGenerator class is provided to mock data for your entities
 
 The RandomGenerator can produce varying lengths of strings or paragraphs, and provides other functions like Address generation, and random date generation in the future or past. 
@@ -32,7 +32,7 @@ The RandomGenerator can produce varying lengths of strings or paragraphs, and pr
 
 
 
-###Example Fixture -
+### Example Fixture -
 
 
     @Service
