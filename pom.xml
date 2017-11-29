@@ -6,10 +6,10 @@
 	<version>0.0.1-RELEASE</version>
 	<name>spring-fixtures</name>
 	<description>A library to help create fixtures in spring applications</description>
-	<url>https://github.com/savantly-net/oss/tree/master/spring-fixtures</url>
+	<url>https://github.com/savantly-net/spring-fixtures</url>
 	<scm>
-		<url>https://github.com/savantly-net/oss/tree/master/spring-fixtures</url>
-		<connection>https://github.com/savantly-net/oss.git</connection>
+		<url>https://github.com/savantly-net/spring-fixtures</url>
+		<connection>https://github.com/savantly-net/spring-fixtures.git</connection>
 	</scm>
 	<developers>
 		<developer>
