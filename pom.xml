@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.savantly</groupId>
 	<artifactId>spring-fixtures</artifactId>
-	<version>0.0.1-RELEASE</version>
+	<version>1.0.0-RELEASE</version>
 	<name>spring-fixtures</name>
 	<description>A library to help create fixtures in spring applications</description>
 	<url>https://github.com/savantly-net/spring-fixtures</url>
@@ -111,7 +111,7 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
-			<version>1.9.2.RELEASE</version>
+			<version>2.0.5.RELEASE</version>
 		</dependency>
 
 		<!-- Test Dependencies -->
@@ -136,7 +136,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.1.9.RELEASE</version>
+			<version>5.0.4.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

@@ -35,7 +35,7 @@ public abstract class AbstractBaseFixture<T, R extends CrudRepository<T, ?>> imp
 		synchronized (lock) {
 			ensureDependenciesAreInstalled();
 			addEntities(entityList);
-			repository.save(entityList);
+			repository.saveAll(entityList);
 			installed = true;
 		}
 		log.info("Finished Fixture Install");
@@ -61,7 +61,7 @@ public abstract class AbstractBaseFixture<T, R extends CrudRepository<T, ?>> imp
 		}
 		log.info("Beginning Fixture Uninstall");
 		synchronized (lock) {
-			repository.delete(entityList);
+			repository.deleteAll(entityList);
 			entityList.clear();
 			installed = false;
 		}
