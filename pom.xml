@@ -91,12 +91,12 @@
 	<distributionManagement>
 		<downloadUrl>https://oss.sonatype.org/content/groups/public/net/savantly/spring-fixtures/</downloadUrl>
 		<repository>
-			<id>sonatype.staging</id>
+			<id>ossrh</id>
 			<name>Sonatype Staging Repository</name>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
 		<snapshotRepository>
-			<id>sonatype.snapshots</id>
+			<id>ossrh</id>
 			<name>Sonatype Snapshot Repository</name>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
